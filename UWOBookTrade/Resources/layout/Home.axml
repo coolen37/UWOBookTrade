@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="@string/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHome"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:textSize="56sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/linlayBuySell"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light">
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="75dp"
+            android:text="@string/buy"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/btnBuy"
+            android:layout_marginRight="60dp" />
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="75dp"
+            android:text="@string/sell"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:id="@+id/btnSell" />
+    </LinearLayout>
+    <Button
+        android:text="@string/soldSell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnSoldSelling"
+        android:textSize="35sp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:text="@string/seekPurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnSeekPurchase"
+        android:textSize="35sp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:text="@string/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnMessage"
+        android:textSize="35sp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:text="@string/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnProfile"
+        android:textSize="35sp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:text="@string/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnLogout"
+        android:textSize="35sp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center_horizontal"
+    android:background="@android:color/black">
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/uwologo" />
+    <TextView
+        android:layout_height="90dp"
+        android:layout_width="match_parent"
+        android:text="@string/book_trade"
+        android:textColor="@android:color/black"
+        android:textSize="65sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:layout_marginRight="5.0dp"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:layout_marginRight="5.0dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="45dp" />
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="35dp"
+        android:text="@string/purpose"
+        android:gravity="center" />
+</LinearLayout>

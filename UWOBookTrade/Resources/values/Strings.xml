@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">UWO Book Trade</string>
+  <string name="book_trade">Book Trade</string>
+  <string name="login">Login</string>
+  <string name="register">Register</string>
+  <string name="purpose">Solving your textbook needs one exhange at a time.</string>
+  <string name="home">HOME</string>
+  <string name="buy">Buy</string>
+  <string name="sell">Sell</string>
+  <string name="logout">Logout</string>
+  <string name="profile">My Profile</string>
+  <string name="soldSell">Sold and Selling</string>
+  <string name="seekPurchase">Seeking and Purchased</string>
+  <string name="message">Message Buyers/Sellers</string>
+  <string name="author">Author:</string>
+  <string name="isbn">ISBN:</string>
+  <string name="title">Book Title:</string>
+  <string name="search">Search for Textbooks</string>
+</resources>

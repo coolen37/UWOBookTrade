@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/uwologo"
+        android:layout_width="match_parent"
+        android:layout_height="312.5dp"
+        android:id="@id/uwologo" />
+    <TextView
+        android:text="Use your UW Oshkosh e-mail to register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@color/background_floating_material_light"
+        android:height="25dp"
+        android:textSize="20dp"
+        android:translationX="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:hint="School Email..." />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Password..." />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtConfirmPassword"
+        android:hint="Confirm Password..." />
+    <Button
+        android:text="SIGN UP!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUp" />
+</LinearLayout>

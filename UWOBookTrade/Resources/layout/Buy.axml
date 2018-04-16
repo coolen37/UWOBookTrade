@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/uwologo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/uwologo" />
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:gravity="center"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTitle" />
+    <TextView
+        android:text="@string/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAuthor"
+        android:textSize="25sp"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editAuthor" />
+    <TextView
+        android:text="@string/isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIsbn"
+        android:gravity="center"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editIsbn" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/linlaySearch"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light">
+        <Button
+            android:text="@string/search"
+            android:textSize="25sp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnSearch"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>
