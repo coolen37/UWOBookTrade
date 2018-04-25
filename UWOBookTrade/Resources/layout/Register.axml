@@ -13,10 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
-        android:textColor="@color/background_floating_material_light"
+        android:textColor="@android:color/white"
         android:height="25dp"
-        android:textSize="20dp"
-        android:translationX="20dp" />
+        android:textSize="20dp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,12 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtPassword"
-        android:hint="Password..." />
+        android:hint="Password..."
+        android:password="true" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtConfirmPassword"
-        android:hint="Confirm Password..." />
+        android:hint="Confirm Password..."
+        android:password="true" />
     <Button
         android:text="SIGN UP!"
         android:layout_width="match_parent"

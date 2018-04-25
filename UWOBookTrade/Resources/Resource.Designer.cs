@@ -41,11 +41,173 @@ namespace UWOBookTrade
 			}
 		}
 		
-		public partial class Layout
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int uwoyellow = 2130968576;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int UWOlogo = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f06000b
+			public const int btnBuy = 2131099659;
+			
+			// aapt resource value: 0x7f06001f
+			public const int btnHome = 2131099679;
+			
+			// aapt resource value: 0x7f060014
+			public const int btnLogin = 2131099668;
+			
+			// aapt resource value: 0x7f060011
+			public const int btnLogout = 2131099665;
+			
+			// aapt resource value: 0x7f06000f
+			public const int btnMessage = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int btnProfile = 2131099664;
+			
+			// aapt resource value: 0x7f060015
+			public const int btnRegister = 2131099669;
+			
+			// aapt resource value: 0x7f06001e
+			public const int btnSave = 2131099678;
+			
+			// aapt resource value: 0x7f060008
+			public const int btnSearch = 2131099656;
+			
+			// aapt resource value: 0x7f06000e
+			public const int btnSeekPurchase = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int btnSell = 2131099660;
+			
+			// aapt resource value: 0x7f060021
+			public const int btnSignUp = 2131099681;
+			
+			// aapt resource value: 0x7f06000d
+			public const int btnSoldSelling = 2131099661;
+			
+			// aapt resource value: 0x7f060004
+			public const int editAuthor = 2131099652;
+			
+			// aapt resource value: 0x7f060006
+			public const int editIsbn = 2131099654;
+			
+			// aapt resource value: 0x7f060002
+			public const int editTitle = 2131099650;
+			
+			// aapt resource value: 0x7f060017
+			public const int imageView1 = 2131099671;
+			
+			// aapt resource value: 0x7f060016
+			public const int linearLayout1 = 2131099670;
+			
+			// aapt resource value: 0x7f060018
+			public const int linearLayout2 = 2131099672;
+			
+			// aapt resource value: 0x7f06001d
+			public const int linearLayout3 = 2131099677;
+			
+			// aapt resource value: 0x7f06000a
+			public const int linlayBuySell = 2131099658;
+			
+			// aapt resource value: 0x7f060007
+			public const int linlaySearch = 2131099655;
+			
+			// aapt resource value: 0x7f060019
+			public const int textView1 = 2131099673;
+			
+			// aapt resource value: 0x7f06001b
+			public const int textView2 = 2131099675;
+			
+			// aapt resource value: 0x7f060003
+			public const int txtAuthor = 2131099651;
+			
+			// aapt resource value: 0x7f060020
+			public const int txtConfirmPassword = 2131099680;
+			
+			// aapt resource value: 0x7f06001c
+			public const int txtDesc = 2131099676;
+			
+			// aapt resource value: 0x7f060012
+			public const int txtEmail = 2131099666;
+			
+			// aapt resource value: 0x7f060009
+			public const int txtHome = 2131099657;
+			
+			// aapt resource value: 0x7f060005
+			public const int txtIsbn = 2131099653;
+			
+			// aapt resource value: 0x7f06001a
+			public const int txtName = 2131099674;
+			
+			// aapt resource value: 0x7f060013
+			public const int txtPassword = 2131099667;
+			
+			// aapt resource value: 0x7f060001
+			public const int txtTitle = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int uwologo = 2131099648;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int Buy = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Home = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Login = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Profile = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Register = 2130903045;
 			
 			static Layout()
 			{
@@ -60,8 +222,56 @@ namespace UWOBookTrade
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
+			
+			// aapt resource value: 0x7f05000d
+			public const int author = 2131034125;
+			
+			// aapt resource value: 0x7f050001
+			public const int book_trade = 2131034113;
+			
+			// aapt resource value: 0x7f050006
+			public const int buy = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int home = 2131034117;
+			
+			// aapt resource value: 0x7f05000e
+			public const int isbn = 2131034126;
+			
+			// aapt resource value: 0x7f050002
+			public const int login = 2131034114;
+			
+			// aapt resource value: 0x7f050008
+			public const int logout = 2131034120;
+			
+			// aapt resource value: 0x7f05000c
+			public const int message = 2131034124;
+			
+			// aapt resource value: 0x7f050009
+			public const int profile = 2131034121;
+			
+			// aapt resource value: 0x7f050004
+			public const int purpose = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int register = 2131034115;
+			
+			// aapt resource value: 0x7f050010
+			public const int search = 2131034128;
+			
+			// aapt resource value: 0x7f05000b
+			public const int seekPurchase = 2131034123;
+			
+			// aapt resource value: 0x7f050007
+			public const int sell = 2131034119;
+			
+			// aapt resource value: 0x7f05000a
+			public const int soldSell = 2131034122;
+			
+			// aapt resource value: 0x7f05000f
+			public const int title = 2131034127;
 			
 			static String()
 			{
