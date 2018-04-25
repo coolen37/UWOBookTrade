@@ -16,7 +16,8 @@
             android:src="@android:drawable/ic_menu_camera"
             android:layout_width="275dp"
             android:layout_height="275dp"
-            android:id="@+id/imageView1" />
+            android:id="@+id/imgPhoto"
+            android:clickable="true" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"

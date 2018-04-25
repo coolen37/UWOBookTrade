@@ -21,6 +21,8 @@ namespace UWOBookTrade.Activities {
         Button home;
         EditText name;
         EditText description;
+        ImageView photo;
+        byte[] image;
         string filePath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "BookTrade.db3");
 
         protected override void OnCreate(Bundle savedInstanceState) {
@@ -33,11 +35,31 @@ namespace UWOBookTrade.Activities {
             home = FindViewById<Button>(Resource.Id.btnHome);
             name = FindViewById<EditText>(Resource.Id.txtName);
             description = FindViewById<EditText>(Resource.Id.txtDesc);
+            photo = FindViewById<ImageView>(Resource.Id.imgPhoto);
 
             home.Click += Home_Click;
             save.Click += Save_Click;
+            photo.Click += Photo_Click;
 
+            image = null;
             FillNameDescription();
+        }
+
+        private void Photo_Click(object sender, EventArgs e) {
+            var imageIntent = new Intent();
+            imageIntent.SetType("image/*");
+            imageIntent.SetAction(Intent.ActionGetContent);
+            StartActivityForResult(
+                Intent.CreateChooser(imageIntent, "Select photo"), 0);
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data) {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (resultCode == Result.Ok) {
+                photo.SetImageURI(data.Data);
+                //image = File.ReadAllBytes(data.Data.ToString());
+            }
         }
 
         private void FillNameDescription() {
@@ -60,6 +82,10 @@ namespace UWOBookTrade.Activities {
 
             user.Name = name.Text;
             user.Description = description.Text;
+
+            if (image != null) {
+                user.Picture = image;
+            }
 
             db.Update(user);
         }

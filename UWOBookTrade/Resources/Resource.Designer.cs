@@ -125,7 +125,7 @@ namespace UWOBookTrade
 			public const int editTitle = 2131099650;
 			
 			// aapt resource value: 0x7f060017
-			public const int imageView1 = 2131099671;
+			public const int imgPhoto = 2131099671;
 			
 			// aapt resource value: 0x7f060016
 			public const int linearLayout1 = 2131099670;
