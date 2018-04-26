@@ -3,7 +3,7 @@
 namespace UWOBookTrade.Database {
     class UserTable {
         [PrimaryKey, AutoIncrement, Column("_Id")]
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
         [Unique]
         public string Email { get; set; }

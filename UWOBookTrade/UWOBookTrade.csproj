@@ -60,6 +60,10 @@
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\ProfileActivity.cs" />
     <Compile Include="Activities\RegisterActivity.cs" />
+    <Compile Include="Database\BookTable.cs" />
+    <Compile Include="Database\MessageTable.cs" />
+    <Compile Include="Database\UserBookTable.cs" />
+    <Compile Include="Database\UserMessageTable.cs" />
     <Compile Include="Database\UserTable.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
