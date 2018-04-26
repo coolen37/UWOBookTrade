@@ -33,8 +33,9 @@
             android:textSize="25sp" />
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:id="@+id/txtName" />
+            android:layout_height="35dp"
+            android:id="@+id/txtName"
+            android:layout_marginTop="10dp" />
         <TextView
             android:text="DESCRIPTION:"
             android:layout_width="wrap_content"
@@ -45,7 +46,8 @@
             android:inputType="textMultiLine"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:id="@+id/txtDesc" />
+            android:id="@+id/txtDesc"
+            android:layout_marginTop="10dp" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
