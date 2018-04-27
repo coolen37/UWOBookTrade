@@ -16,6 +16,8 @@ namespace UWOBookTrade.Activities {
         Button home;
         Button profile;
         Button logout;
+        Button sell;
+        Button buy;
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
 
@@ -25,9 +27,21 @@ namespace UWOBookTrade.Activities {
             home = FindViewById<Button>(Resource.Id.btnBuy);
             profile = FindViewById<Button>(Resource.Id.btnProfile);
             logout = FindViewById<Button>(Resource.Id.btnLogout);
+            buy = FindViewById<Button>(Resource.Id.btnBuy);
+            sell = FindViewById<Button>(Resource.Id.btnSell);
             home.Click += Home_Click;
             profile.Click += Profile_Click;
             logout.Click += Logout_Click;
+            buy.Click += Buy_Click;
+            sell.Click += Sell_Click;
+        }
+
+        private void Sell_Click(object sender, EventArgs e) {
+            StartActivity(typeof(SellActivity));
+        }
+
+        private void Buy_Click(object sender, EventArgs e) {
+            StartActivity(typeof(BuyActivity));
         }
 
         private void Logout_Click(object sender, EventArgs e) {

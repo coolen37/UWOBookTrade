@@ -60,6 +60,7 @@
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\ProfileActivity.cs" />
     <Compile Include="Activities\RegisterActivity.cs" />
+    <Compile Include="Activities\SellActivity.cs" />
     <Compile Include="Database\BookTable.cs" />
     <Compile Include="Database\MessageTable.cs" />
     <Compile Include="Database\UserBookTable.cs" />
@@ -82,6 +83,9 @@
     <AndroidResource Include="Resources\layout\Register.axml" />
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\layout\Profile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sell.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

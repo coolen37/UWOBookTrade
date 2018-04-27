@@ -115,6 +115,9 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f06000d
 			public const int btnSoldSelling = 2131099661;
 			
+			// aapt resource value: 0x7f060022
+			public const int btnTextbookPic = 2131099682;
+			
 			// aapt resource value: 0x7f060004
 			public const int editAuthor = 2131099652;
 			
@@ -208,6 +211,9 @@ namespace UWOBookTrade
 			
 			// aapt resource value: 0x7f030005
 			public const int Register = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Sell = 2130903046;
 			
 			static Layout()
 			{
