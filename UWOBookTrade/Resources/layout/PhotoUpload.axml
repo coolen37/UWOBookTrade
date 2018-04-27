@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgTextbok"
+        android:clickable="true" />
+    <TextView
+        android:text="Choose Picture of Book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTakePicture"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:gravity="center" />
+    <Button
+        android:text="Choose File"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnChooseFile"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:text="Submit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSubmit"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="25dp"
+        android:textSize="45sp" />
+    <Button
+        android:text="Home"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnHome"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="25dp"
+        android:textSize="45sp" />
+</LinearLayout>

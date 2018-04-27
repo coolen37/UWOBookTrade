@@ -14,6 +14,11 @@ namespace UWOBookTrade.Activities {
     [Activity(Label = "SellActivity")]
     public class SellActivity : Activity {
         Button textbookPic;
+        EditText title;
+        EditText author;
+        EditText isbn;
+        string filePath = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "BookTrade.db3");
+
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
 
@@ -25,7 +30,8 @@ namespace UWOBookTrade.Activities {
         }
 
         private void TextbookPic_Click(object sender, EventArgs e) {
-            throw new NotImplementedException();
+            //Grab info from the three edittexts and submit to database. Refer to ProfileActivity for a recipe.
+            StartActivity(typeof(PhotoUploadActivity));
         }
     }
 }
