@@ -25,7 +25,7 @@ namespace UWOBookTrade.Activities {
             // Create your application here
             SetContentView(Resource.Layout.Sell);
 
-            textbookPic = FindViewById<Button>(Resource.Id.btnTextbookPic);
+            textbookPic = FindViewById<Button>(Resource.Id.btnSearchImage);
             textbookPic.Click += TextbookPic_Click;
         }
 

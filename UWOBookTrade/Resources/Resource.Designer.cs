@@ -106,6 +106,9 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f060008
 			public const int btnSearch = 2131099656;
 			
+			// aapt resource value: 0x7f060026
+			public const int btnSearchImage = 2131099686;
+			
 			// aapt resource value: 0x7f06000e
 			public const int btnSeekPurchase = 2131099662;
 			
@@ -120,9 +123,6 @@ namespace UWOBookTrade
 			
 			// aapt resource value: 0x7f060019
 			public const int btnSubmit = 2131099673;
-			
-			// aapt resource value: 0x7f060026
-			public const int btnTextbookPic = 2131099686;
 			
 			// aapt resource value: 0x7f060004
 			public const int editAuthor = 2131099652;
@@ -219,16 +219,22 @@ namespace UWOBookTrade
 			public const int Main = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int PhotoUpload = 2130903044;
+			public const int MessageHome = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Profile = 2130903045;
+			public const int MessageWrite = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Register = 2130903046;
+			public const int PhotoUpload = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Sell = 2130903047;
+			public const int Profile = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int Register = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int Sell = 2130903049;
 			
 			static Layout()
 			{
@@ -254,6 +260,12 @@ namespace UWOBookTrade
 			
 			// aapt resource value: 0x7f050006
 			public const int buy = 2131034118;
+			
+			// aapt resource value: 0x7f050013
+			public const int chooseFile = 2131034131;
+			
+			// aapt resource value: 0x7f050012
+			public const int choosePicture = 2131034130;
 			
 			// aapt resource value: 0x7f050005
 			public const int home = 2131034117;
@@ -288,8 +300,14 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f050007
 			public const int sell = 2131034119;
 			
+			// aapt resource value: 0x7f050011
+			public const int sellPicture = 2131034129;
+			
 			// aapt resource value: 0x7f05000a
 			public const int soldSell = 2131034122;
+			
+			// aapt resource value: 0x7f050014
+			public const int submit = 2131034132;
 			
 			// aapt resource value: 0x7f05000f
 			public const int title = 2131034127;

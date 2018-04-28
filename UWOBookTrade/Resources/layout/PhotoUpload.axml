@@ -12,7 +12,7 @@
         android:id="@+id/imgTextbok"
         android:clickable="true" />
     <TextView
-        android:text="Choose Picture of Book"
+        android:text="@string/choosePicture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtTakePicture"
@@ -20,7 +20,7 @@
         android:textSize="35sp"
         android:gravity="center" />
     <Button
-        android:text="Choose File"
+        android:text="@string/chooseFile"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:id="@+id/btnChooseFile"
@@ -28,7 +28,7 @@
         android:layout_marginTop="25dp"
         android:background="@android:color/darker_gray" />
     <Button
-        android:text="Submit"
+        android:text="@string/submit"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:id="@+id/btnSubmit"
@@ -36,7 +36,7 @@
         android:layout_marginTop="25dp"
         android:textSize="45sp" />
     <Button
-        android:text="Home"
+        android:text="@string/home"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:id="@+id/btnHome"
