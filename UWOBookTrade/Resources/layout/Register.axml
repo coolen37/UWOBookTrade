@@ -15,7 +15,8 @@
         android:id="@+id/textView1"
         android:textColor="@android:color/white"
         android:height="25dp"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:gravity="center" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,6 +37,6 @@
     <Button
         android:text="SIGN UP!"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:id="@+id/btnSignUp" />
 </LinearLayout>

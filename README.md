@@ -1,7 +1,7 @@
 # UWOBookTrade
 Agile Development Group Project
 
-Currently testing on Pixel device. 
+Testing on Nexus4 device. 
 Theme is AppCompact.NoActionBar
 
 Only adding this because I was making the same mistake, when setting sizes, use 'sp' (e.g. 35sp) for fonts and 'dp' (e.g. 100dp) for everything else (except for special values wrap_content and match_parent).

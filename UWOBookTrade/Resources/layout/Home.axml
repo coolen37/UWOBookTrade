@@ -51,7 +51,7 @@
         android:text="@string/soldSell"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/btnSoldSelling"
         android:textSize="35sp"
         android:background="@android:color/darker_gray" />
@@ -59,7 +59,7 @@
         android:text="@string/seekPurchase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/btnSeekPurchase"
         android:textSize="35sp"
         android:background="@android:color/darker_gray" />
@@ -67,7 +67,7 @@
         android:text="@string/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/btnMessage"
         android:textSize="35sp"
         android:background="@android:color/darker_gray" />
@@ -75,7 +75,7 @@
         android:text="@string/profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/btnProfile"
         android:textSize="35sp"
         android:background="@android:color/darker_gray" />
@@ -83,7 +83,7 @@
         android:text="@string/logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/btnLogout"
         android:textSize="35sp"
         android:background="@android:color/darker_gray" />
