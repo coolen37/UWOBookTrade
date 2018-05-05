@@ -13,6 +13,7 @@
   <string name="soldSell">Sold and Selling</string>
   <string name="seekPurchase">Seeking and Purchased</string>
   <string name="message">Messaging</string>
+  <string name="messageWrite">Write Message</string>
   <string name="author">Author:</string>
   <string name="isbn">ISBN:</string>
   <string name="title">Book Title:</string>
