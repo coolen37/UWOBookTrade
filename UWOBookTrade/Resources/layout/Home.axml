@@ -48,22 +48,6 @@
             android:id="@+id/btnSell" />
     </LinearLayout>
     <Button
-        android:text="@string/soldSell"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:id="@+id/btnSoldSelling"
-        android:textSize="35sp"
-        android:background="@android:color/darker_gray" />
-    <Button
-        android:text="@string/seekPurchase"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:id="@+id/btnSeekPurchase"
-        android:textSize="35sp"
-        android:background="@android:color/darker_gray" />
-    <Button
         android:text="@string/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
