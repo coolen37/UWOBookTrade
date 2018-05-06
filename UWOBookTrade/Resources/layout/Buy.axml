@@ -11,39 +11,24 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:id="@+id/uwologo" />
-    <TextView
-        android:text="@string/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtTitle"
-        android:gravity="center"
-        android:textSize="25sp" />
+    
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editTitle" />
-    <TextView
-        android:text="@string/author"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtAuthor"
-        android:textSize="25sp"
-        android:gravity="center" />
+        android:id="@+id/editTitle"
+        android:hint="Title"/>
+    
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editAuthor" />
-    <TextView
-        android:text="@string/isbn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtIsbn"
-        android:gravity="center"
-        android:textSize="25sp" />
+        android:id="@+id/editAuthor"
+        android:hint="Author"/>
+    
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editIsbn" />
+        android:id="@+id/editIsbn"
+        android:hint="ISBN"/>
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"

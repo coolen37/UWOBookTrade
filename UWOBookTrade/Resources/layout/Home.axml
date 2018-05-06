@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtHome"
-        android:background="@android:color/holo_orange_light"
+        android:background="@color/uwoyellow"
         android:gravity="center"
         android:textSize="56sp"
         android:textColor="@android:color/black"
@@ -24,7 +24,7 @@
         android:layout_height="125dp"
         android:id="@+id/linlayBuySell"
         android:gravity="center"
-        android:background="@android:color/holo_orange_light">
+        android:background="@color/uwoyellow">
         <Button
             android:layout_width="100sp"
             android:layout_height="75dp"
