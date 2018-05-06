@@ -13,13 +13,13 @@
         android:layout_height="65.5dp"
         android:id="@+id/txtEmail"
         android:layout_marginBottom="14.5dp"
-        android:hint="School Email..." />
+        android:hint="School Email" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtPassword"
         android:layout_marginBottom="23.5dp"
-        android:hint="Password..."
+        android:hint="Password"
         android:password="true" />
     <Button
         android:text="LOGIN"
