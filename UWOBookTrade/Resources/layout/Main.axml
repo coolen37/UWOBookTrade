@@ -7,11 +7,22 @@
     android:minHeight="25px"
     android:gravity="center_horizontal"
     android:background="@android:color/black">
-    <ImageView
-        android:layout_height="275dp"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/uwologo" />
+        android:layout_height="275dp"
+        android:id="@+id/linlayMain"
+        android:gravity="center"
+        android:background="@color/uwoyellow">
+        <ImageView
+            android:layout_height="275dp"
+            android:layout_width="275dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/uwologo"
+            android:background="@color/uwoyellow" />
+    </LinearLayout>
     <TextView
         android:layout_height="85dp"
         android:layout_width="match_parent"
