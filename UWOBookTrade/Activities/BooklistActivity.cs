@@ -34,9 +34,7 @@ namespace UWOBookTrade.Activities
 
             var db = new SQLiteConnection(filePath);
             var bookTable = db.Table<BookTable>();
-            var books = bookTable.Where(x => x.BookTitle.Equals(title, StringComparison.InvariantCultureIgnoreCase) &&
-                                        x.ISBN.Equals(isbn, StringComparison.InvariantCultureIgnoreCase) &&
-                                        x.Author.Equals(author, StringComparison.InvariantCultureIgnoreCase));
+            var books = bookTable.Where(x => x.BookTitle.Equals(title) && x.ISBN.Equals(isbn) && x.Author.Equals(author));
 
             List<string> theBooks = new List<string>();
 
