@@ -23,4 +23,5 @@
   <string name="chooseFile">Choose File</string>
   <string name="submit">Submit</string>
   <string name="price">Price</string>
+  <string name="send">Send</string>
 </resources>

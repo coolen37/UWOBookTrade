@@ -7,10 +7,16 @@ namespace UWOBookTrade.Database {
 
         public string Message { get; set; }
 
-        //Foreign Key
-        public int User1Id { get; set; }
+        public string User1 { get; set; }
 
-        //Foreign Key
-        public int User2Id { get; set; }
+        public string User2 { get; set; }
+
+        public string DisplayName() {
+            return User2;
+        }
+
+        public string DisplayMessage() {
+            return Message;
+        }
     }
 }
