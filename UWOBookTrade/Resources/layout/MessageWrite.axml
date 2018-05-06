@@ -3,5 +3,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+<TextView
+        android:text="@string/messageWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessageWrite"
+        android:background="@color/uwoyellow"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtToUsername" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessageBox" />
 </LinearLayout>
+
