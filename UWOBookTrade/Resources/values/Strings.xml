@@ -22,4 +22,5 @@
   <string name="choosePicture">Choose a Picture of Book</string>
   <string name="chooseFile">Choose File</string>
   <string name="submit">Submit</string>
+  <string name="price">Price</string>
 </resources>

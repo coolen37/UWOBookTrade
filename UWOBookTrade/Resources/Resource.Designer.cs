@@ -76,122 +76,143 @@ namespace UWOBookTrade
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000b
-			public const int btnBuy = 2131099659;
-			
-			// aapt resource value: 0x7f060018
-			public const int btnChooseFile = 2131099672;
+			// aapt resource value: 0x7f06000a
+			public const int btnBuy = 2131099658;
 			
 			// aapt resource value: 0x7f06001a
-			public const int btnHome = 2131099674;
+			public const int btnChooseFile = 2131099674;
 			
-			// aapt resource value: 0x7f060014
-			public const int btnLogin = 2131099668;
+			// aapt resource value: 0x7f06001c
+			public const int btnHome = 2131099676;
 			
 			// aapt resource value: 0x7f060011
-			public const int btnLogout = 2131099665;
-			
-			// aapt resource value: 0x7f06000f
-			public const int btnMessage = 2131099663;
-			
-			// aapt resource value: 0x7f060010
-			public const int btnProfile = 2131099664;
-			
-			// aapt resource value: 0x7f060015
-			public const int btnRegister = 2131099669;
-			
-			// aapt resource value: 0x7f060023
-			public const int btnSave = 2131099683;
-			
-			// aapt resource value: 0x7f060008
-			public const int btnSearch = 2131099656;
-			
-			// aapt resource value: 0x7f060026
-			public const int btnSearchImage = 2131099686;
+			public const int btnLogin = 2131099665;
 			
 			// aapt resource value: 0x7f06000e
-			public const int btnSeekPurchase = 2131099662;
+			public const int btnLogout = 2131099662;
 			
 			// aapt resource value: 0x7f06000c
-			public const int btnSell = 2131099660;
-			
-			// aapt resource value: 0x7f060025
-			public const int btnSignUp = 2131099685;
+			public const int btnMessage = 2131099660;
 			
 			// aapt resource value: 0x7f06000d
-			public const int btnSoldSelling = 2131099661;
+			public const int btnProfile = 2131099661;
 			
-			// aapt resource value: 0x7f060019
-			public const int btnSubmit = 2131099673;
+			// aapt resource value: 0x7f060012
+			public const int btnRegister = 2131099666;
+			
+			// aapt resource value: 0x7f060025
+			public const int btnSave = 2131099685;
+			
+			// aapt resource value: 0x7f060007
+			public const int btnSearch = 2131099655;
+			
+			// aapt resource value: 0x7f06002d
+			public const int btnSearchImage = 2131099693;
+			
+			// aapt resource value: 0x7f06000b
+			public const int btnSell = 2131099659;
+			
+			// aapt resource value: 0x7f060027
+			public const int btnSignUp = 2131099687;
+			
+			// aapt resource value: 0x7f06001b
+			public const int btnSubmit = 2131099675;
 			
 			// aapt resource value: 0x7f060004
 			public const int editAuthor = 2131099652;
 			
-			// aapt resource value: 0x7f060006
-			public const int editIsbn = 2131099654;
+			// aapt resource value: 0x7f060005
+			public const int editIsbn = 2131099653;
 			
-			// aapt resource value: 0x7f060002
-			public const int editTitle = 2131099650;
-			
-			// aapt resource value: 0x7f06001c
-			public const int imgPhoto = 2131099676;
-			
-			// aapt resource value: 0x7f060016
-			public const int imgTextbok = 2131099670;
-			
-			// aapt resource value: 0x7f06001b
-			public const int linearLayout1 = 2131099675;
-			
-			// aapt resource value: 0x7f06001d
-			public const int linearLayout2 = 2131099677;
-			
-			// aapt resource value: 0x7f060022
-			public const int linearLayout3 = 2131099682;
-			
-			// aapt resource value: 0x7f06000a
-			public const int linlayBuySell = 2131099658;
-			
-			// aapt resource value: 0x7f060007
-			public const int linlaySearch = 2131099655;
-			
-			// aapt resource value: 0x7f06001e
-			public const int textView1 = 2131099678;
-			
-			// aapt resource value: 0x7f060020
-			public const int textView2 = 2131099680;
+			// aapt resource value: 0x7f06002c
+			public const int editPrice = 2131099692;
 			
 			// aapt resource value: 0x7f060003
-			public const int txtAuthor = 2131099651;
+			public const int editTitle = 2131099651;
 			
-			// aapt resource value: 0x7f060024
-			public const int txtConfirmPassword = 2131099684;
+			// aapt resource value: 0x7f06001e
+			public const int imgPhoto = 2131099678;
 			
-			// aapt resource value: 0x7f060021
-			public const int txtDesc = 2131099681;
+			// aapt resource value: 0x7f060018
+			public const int imgTextbok = 2131099672;
 			
-			// aapt resource value: 0x7f060012
-			public const int txtEmail = 2131099666;
-			
-			// aapt resource value: 0x7f060009
-			public const int txtHome = 2131099657;
-			
-			// aapt resource value: 0x7f060005
-			public const int txtIsbn = 2131099653;
+			// aapt resource value: 0x7f06001d
+			public const int linearLayout1 = 2131099677;
 			
 			// aapt resource value: 0x7f06001f
-			public const int txtName = 2131099679;
+			public const int linearLayout2 = 2131099679;
 			
-			// aapt resource value: 0x7f060013
-			public const int txtPassword = 2131099667;
+			// aapt resource value: 0x7f060024
+			public const int linearLayout3 = 2131099684;
 			
-			// aapt resource value: 0x7f060017
-			public const int txtTakePicture = 2131099671;
+			// aapt resource value: 0x7f060009
+			public const int linlayBuySell = 2131099657;
+			
+			// aapt resource value: 0x7f060006
+			public const int linlaySearch = 2131099654;
 			
 			// aapt resource value: 0x7f060001
-			public const int txtTitle = 2131099649;
+			public const int lstBooklist = 2131099649;
+			
+			// aapt resource value: 0x7f060014
+			public const int lstMessages = 2131099668;
+			
+			// aapt resource value: 0x7f060020
+			public const int textView1 = 2131099680;
+			
+			// aapt resource value: 0x7f060022
+			public const int textView2 = 2131099682;
+			
+			// aapt resource value: 0x7f060029
+			public const int txtAuthor = 2131099689;
+			
+			// aapt resource value: 0x7f060026
+			public const int txtConfirmPassword = 2131099686;
+			
+			// aapt resource value: 0x7f060023
+			public const int txtDesc = 2131099683;
+			
+			// aapt resource value: 0x7f06000f
+			public const int txtEmail = 2131099663;
+			
+			// aapt resource value: 0x7f060008
+			public const int txtHome = 2131099656;
+			
+			// aapt resource value: 0x7f06002a
+			public const int txtIsbn = 2131099690;
+			
+			// aapt resource value: 0x7f060017
+			public const int txtMessageBox = 2131099671;
+			
+			// aapt resource value: 0x7f060015
+			public const int txtMessageWrite = 2131099669;
+			
+			// aapt resource value: 0x7f060013
+			public const int txtMessaging = 2131099667;
+			
+			// aapt resource value: 0x7f060021
+			public const int txtName = 2131099681;
+			
+			// aapt resource value: 0x7f060010
+			public const int txtPassword = 2131099664;
+			
+			// aapt resource value: 0x7f06002b
+			public const int txtPrice = 2131099691;
 			
 			// aapt resource value: 0x7f060000
-			public const int uwologo = 2131099648;
+			public const int txtSearched = 2131099648;
+			
+			// aapt resource value: 0x7f060019
+			public const int txtTakePicture = 2131099673;
+			
+			// aapt resource value: 0x7f060028
+			public const int txtTitle = 2131099688;
+			
+			// aapt resource value: 0x7f060016
+			public const int txtToUsername = 2131099670;
+			
+			// aapt resource value: 0x7f060002
+			public const int uwologo = 2131099650;
 			
 			static Id()
 			{
@@ -207,34 +228,37 @@ namespace UWOBookTrade
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Buy = 2130903040;
+			public const int Booklist = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Home = 2130903041;
+			public const int Buy = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Login = 2130903042;
+			public const int Home = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int Login = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int MessageHome = 2130903044;
+			public const int Main = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int MessageWrite = 2130903045;
+			public const int MessageHome = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int PhotoUpload = 2130903046;
+			public const int MessageWrite = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Profile = 2130903047;
+			public const int PhotoUpload = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int Register = 2130903048;
+			public const int Profile = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int Sell = 2130903049;
+			public const int Register = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int Sell = 2130903050;
 			
 			static Layout()
 			{
@@ -252,8 +276,8 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f050000
 			public const int app_name = 2131034112;
 			
-			// aapt resource value: 0x7f05000d
-			public const int author = 2131034125;
+			// aapt resource value: 0x7f05000e
+			public const int author = 2131034126;
 			
 			// aapt resource value: 0x7f050001
 			public const int book_trade = 2131034113;
@@ -261,17 +285,17 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f050006
 			public const int buy = 2131034118;
 			
-			// aapt resource value: 0x7f050013
-			public const int chooseFile = 2131034131;
+			// aapt resource value: 0x7f050014
+			public const int chooseFile = 2131034132;
 			
-			// aapt resource value: 0x7f050012
-			public const int choosePicture = 2131034130;
+			// aapt resource value: 0x7f050013
+			public const int choosePicture = 2131034131;
 			
 			// aapt resource value: 0x7f050005
 			public const int home = 2131034117;
 			
-			// aapt resource value: 0x7f05000e
-			public const int isbn = 2131034126;
+			// aapt resource value: 0x7f05000f
+			public const int isbn = 2131034127;
 			
 			// aapt resource value: 0x7f050002
 			public const int login = 2131034114;
@@ -282,6 +306,12 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f05000c
 			public const int message = 2131034124;
 			
+			// aapt resource value: 0x7f05000d
+			public const int messageWrite = 2131034125;
+			
+			// aapt resource value: 0x7f050016
+			public const int price = 2131034134;
+			
 			// aapt resource value: 0x7f050009
 			public const int profile = 2131034121;
 			
@@ -291,8 +321,8 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f050003
 			public const int register = 2131034115;
 			
-			// aapt resource value: 0x7f050010
-			public const int search = 2131034128;
+			// aapt resource value: 0x7f050011
+			public const int search = 2131034129;
 			
 			// aapt resource value: 0x7f05000b
 			public const int seekPurchase = 2131034123;
@@ -300,17 +330,17 @@ namespace UWOBookTrade
 			// aapt resource value: 0x7f050007
 			public const int sell = 2131034119;
 			
-			// aapt resource value: 0x7f050011
-			public const int sellPicture = 2131034129;
+			// aapt resource value: 0x7f050012
+			public const int sellPicture = 2131034130;
 			
 			// aapt resource value: 0x7f05000a
 			public const int soldSell = 2131034122;
 			
-			// aapt resource value: 0x7f050014
-			public const int submit = 2131034132;
+			// aapt resource value: 0x7f050015
+			public const int submit = 2131034133;
 			
-			// aapt resource value: 0x7f05000f
-			public const int title = 2131034127;
+			// aapt resource value: 0x7f050010
+			public const int title = 2131034128;
 			
 			static String()
 			{

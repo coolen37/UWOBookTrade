@@ -9,7 +9,7 @@
     <ImageView
         android:src="@drawable/uwologo"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:id="@+id/uwologo" />
     <TextView
         android:text="@string/title"
@@ -20,7 +20,7 @@
         android:textSize="25sp" />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/editTitle" />
     <TextView
         android:text="@string/author"
@@ -31,7 +31,7 @@
         android:gravity="center" />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/editAuthor" />
     <TextView
         android:text="@string/isbn"
@@ -42,15 +42,26 @@
         android:textSize="25sp" />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/editIsbn" />
+    <TextView
+        android:text="@string/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrice"
+        android:gravity="center"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editPrice" />
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="161.0dp"
         android:id="@+id/linlaySearch"
         android:gravity="center"
         android:background="@android:color/holo_orange_light">
@@ -58,7 +69,7 @@
             android:text="@string/sellPicture"
             android:textSize="25sp"
             android:layout_width="250dp"
-            android:layout_height="65dp"
+            android:layout_height="50dp"
             android:id="@+id/btnSearchImage"
             android:background="@android:color/darker_gray" />
     </LinearLayout>
