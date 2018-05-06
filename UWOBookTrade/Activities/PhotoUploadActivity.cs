@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using Android.App;
 using Android.Content;
 using Android.Database;
-using Android.Graphics;
 using Android.OS;
 using Android.Provider;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using SQLite;
 using UWOBookTrade.Database;
