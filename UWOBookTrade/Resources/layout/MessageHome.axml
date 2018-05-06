@@ -2,21 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    <TextView
-        android:text="@string/message"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtMessaging"
-        android:background="@color/uwoyellow"
-        android:gravity="center"
-        android:textSize="56sp"
-        android:textColor="@android:color/black"
-        android:textStyle="bold" />
-    <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/lstMessages" />
+    android:layout_height="match_parent" >
+  <TextView
+      android:text="@string/message"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtMessaging"
+      android:background="@color/uwoyellow"
+      android:gravity="center"
+      android:textSize="56sp"
+      android:textColor="@android:color/black"
+      android:textStyle="bold" />
+  <ListView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/lstMessages" />
 </LinearLayout>
