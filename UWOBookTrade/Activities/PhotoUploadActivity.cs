@@ -36,7 +36,6 @@ namespace UWOBookTrade.Activities {
         }
 
         private void Submit_Click(object sender, EventArgs e) {
-            System.Console.WriteLine(Intent.GetStringExtra("Title"));
             BookTable book = new BookTable {
                 BookTitle = Intent.GetStringExtra("Title"),
                 Author = Intent.GetStringExtra("Author"),
@@ -46,7 +45,7 @@ namespace UWOBookTrade.Activities {
             };
             var db = new SQLiteConnection(filePath);
             db.Insert(book);
-            StartActivity(typeof(SellActivity));
+            StartActivity(typeof(HomeActivity));
         }
 
         private void ChooseFile_Click(object sender, EventArgs e) {

@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<TextView
+    <TextView
         android:text="@string/messageWrite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,11 +16,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtToUsername" />
+        android:id="@+id/txtToUsername"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHistory"
+        android:textSize="25sp" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtMessageBox" />
+    <Button
+        android:text="@string/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendMessage" />
 </LinearLayout>
-

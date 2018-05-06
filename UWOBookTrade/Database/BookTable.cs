@@ -16,7 +16,7 @@ namespace UWOBookTrade.Database {
         public byte[] Image { get; set; }
 
         public override string ToString() {
-            return Price + "\n" + BookTitle + ": " + Author + "\n" + ISBN;
+            return BookId + "\n" + Price + "\n" + BookTitle + ": " + Author + "\n" + ISBN;
         }
     }
 }
