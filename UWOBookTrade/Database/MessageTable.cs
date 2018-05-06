@@ -6,5 +6,11 @@ namespace UWOBookTrade.Database {
         public int MessageId { get; set; }
 
         public string Message { get; set; }
+
+        //Foreign Key
+        public int User1Id { get; set; }
+
+        //Foreign Key
+        public int User2Id { get; set; }
     }
 }
