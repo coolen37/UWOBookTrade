@@ -9,11 +9,14 @@ namespace UWOBookTrade.Database {
 
         public string Author { get; set; }
 
-        [Unique]
         public string ISBN { get; set; }
 
-        public string Class { get; set; }
-
+        public string Price { get; set; }
+        
         public byte[] Image { get; set; }
+
+        public override string ToString() {
+            return Price + "\n" + BookTitle + ": " + Author + "\n" + ISBN;
+        }
     }
 }

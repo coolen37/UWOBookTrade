@@ -37,6 +37,9 @@ namespace UWOBookTrade.Activities {
             try {
                 var db = new SQLiteConnection(filePath);
                 db.CreateTable<UserTable>();
+                db.CreateTable<BookTable>();
+                db.CreateTable<UserBookTable>();
+                db.CreateTable<MessageTable>();
             } catch (IOException ex) {
                 string reason = string.Format("Faild to create Table - Reason {0}", ex.Message);
                 Toast.MakeText(this, reason, ToastLength.Long).Show();
