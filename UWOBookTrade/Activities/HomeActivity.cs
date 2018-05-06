@@ -13,7 +13,6 @@ using Android.Widget;
 namespace UWOBookTrade.Activities {
     [Activity(Label = "HomeActivity")]
     public class HomeActivity : Activity {
-        Button home;
         Button profile;
         Button logout;
         Button sell;
@@ -25,14 +24,12 @@ namespace UWOBookTrade.Activities {
             // Create your application here
             SetContentView(Resource.Layout.Home);
 
-            home = FindViewById<Button>(Resource.Id.btnBuy);
             profile = FindViewById<Button>(Resource.Id.btnProfile);
             logout = FindViewById<Button>(Resource.Id.btnLogout);
             buy = FindViewById<Button>(Resource.Id.btnBuy);
             sell = FindViewById<Button>(Resource.Id.btnSell);
             message = FindViewById<Button>(Resource.Id.btnMessage);
 
-            home.Click += Home_Click;
             profile.Click += Profile_Click;
             logout.Click += Logout_Click;
             buy.Click += Buy_Click;
@@ -60,8 +57,6 @@ namespace UWOBookTrade.Activities {
             StartActivity(typeof(ProfileActivity));
         }
 
-        private void Home_Click(object sender, EventArgs e) {
-            StartActivity(typeof(BuyActivity));
-        }
+        
     }
 }
