@@ -54,6 +54,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\BooklistActivity.cs" />
     <Compile Include="Activities\BuyActivity.cs" />
     <Compile Include="Activities\HomeActivity.cs" />
     <Compile Include="Activities\LoginActivity.cs" />
@@ -96,6 +97,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\MessageHome.axml" />
     <AndroidResource Include="Resources\layout\MessageWrite.axml" />
+    <AndroidResource Include="Resources\layout\Booklist.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

@@ -10,6 +10,8 @@ using Android.Provider;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SQLite;
+using UWOBookTrade.Database;
 
 namespace UWOBookTrade.Activities {
     [Activity(Label = "PhotoUploadActivity")]
@@ -18,7 +20,7 @@ namespace UWOBookTrade.Activities {
         Button submit;
         Button chooseFile;
         ImageView textbookPic;
-        byte[] image;
+        byte[] image = null;
         string filePath = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "BookTrade.db3");
 
         protected override void OnCreate(Bundle savedInstanceState) {
@@ -38,7 +40,17 @@ namespace UWOBookTrade.Activities {
         }
 
         private void Submit_Click(object sender, EventArgs e) {
-            //Send picture to database and switch to Sold/selling page as per the mockup. Refer to ProfileActivity for a recipe.
+            System.Console.WriteLine(Intent.GetStringExtra("Title"));
+            BookTable book = new BookTable {
+                BookTitle = Intent.GetStringExtra("Title"),
+                Author = Intent.GetStringExtra("Author"),
+                ISBN = Intent.GetStringExtra("ISBN"),
+                Price = Intent.GetStringExtra("Price"),
+                Image = image
+            };
+            var db = new SQLiteConnection(filePath);
+            db.Insert(book);
+            StartActivity(typeof(SellActivity));
         }
 
         private void ChooseFile_Click(object sender, EventArgs e) {
